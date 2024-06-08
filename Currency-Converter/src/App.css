@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://th.bing.com/th/id/OIP.fPUl_Vzm_MwepeWfp157igHaEM?w=325&h=184&c=7&r=0&o=5&dpr=1.5&pid=1.7') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+  
+  .currency-converter {
+    background-color: rgba(255, 255, 255, 0.167);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    backdrop-filter: blur(15px);
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  .input-field {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+    font-size: 1.3rem;
+
+  }
+  
+  .currency-select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 1.3rem;
+
+    border-radius: 5px;
+  }
+  
+  .swap-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.3rem;
+   
+    margin-bottom: 10px;
+  }
+  
+  .convert-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.3rem;
+
+  }
+  .result{
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffffbf;
+    margin: 10px auto;
+    font-size: 1.2rem;
+  }
+  
+  
